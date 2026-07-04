@@ -13,7 +13,7 @@ import java.util.Optional;
 
 public class WorkoutRecordFileRepository implements WorkoutRecordRepository {
 
-    private final Path filePath = Path.of("data", "workout-records.txt");
+    private final Path filePath = Path.of("data", "record.txt");
 
     public WorkoutRecordFileRepository() {
         try {
